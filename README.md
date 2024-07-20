@@ -5,6 +5,7 @@ Required Parts: Esp32(nodemcu-32s), SPI tft display
 Required Libraries: ArduinoJson, ESP32Encoder, Adafruit GFX Library, Adafruit ILI9341, arduinoVNC
 
 Configuration: Change ssid, password, vnc ip , vnc port & vnc password (optional)
+
 Screen config: ILI9341 display configured in hardware spi using esp's VSPI line (use this for fastest screen update or alternatively use software spi)
 
 Issues: assides from buggy code, there are two known issues:
